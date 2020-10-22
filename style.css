@@ -44,6 +44,10 @@ form input {
     background-color: slategray;
 }
 
+.submit_btn input:visited {
+    background-color: darkslategrey;
+}
+
 /*STYLE FOR MEME AND MEME CONTENTS*/
 
 .meme_div {
