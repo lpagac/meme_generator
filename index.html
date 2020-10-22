@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href ="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--CONTAINER FOR THE MEME INFO FORM-->
+
+    <div class="container">
+
+        <!--HEADER AND INSTRUCTUONS-->
+
+        <h1 class="header">Make Your Own Meme</h1>
+        <h3>Refresh the page to restore deleted memes from your current session. Closing the tab will clear the history.</h3>
+        <h2 class="instructions">Fill in the required fields and enjoy your memes!</h2>
+
+        <!--FORM TO COLLECT MEME IMG/TEXT VALUES-->
+    
+        <form action="#">
+            <div>
+                <label for="photo">What is your image URL?</label>
+                <input type="text" id="photo" placeholder="Paste the URL for your image here">
+            </div>
+            <div>
+                <label for="top_text">What text would you like on the top?</label>
+                <input type="text" id="top_text" placeholder="(Optional) Write your top text here">
+            </div>
+            <div>
+                <label for="bottom_text">What text would you like on the bottom?</label>
+                <input type="text" id="bottom_text" placeholder="(Optional) Write your bottom text here">
+            </div>
+            <div class="submit_btn">
+                <input class="btn" type="submit">
+            </div>
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
