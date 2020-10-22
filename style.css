@@ -36,6 +36,7 @@ form input {
     padding: 7px;
     font-size: 1.5rem;
     background-color: darkslategrey;
+    text-align: center;
 }
 
 .submit_btn input:hover {
