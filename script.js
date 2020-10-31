@@ -33,7 +33,7 @@ window.onload = function() {
 
     //MEME CREATION FUNCTION ACTIVATED ON FORM SUBMIT
     
-    form.onsubmit = function(e) {
+    form.addEventListener('submit', function(e) {
         e.preventDefault();
         if (!document.querySelector("#photo").value) {
             alert("Please enter an image URL to generate a meme");
@@ -77,7 +77,7 @@ window.onload = function() {
         sessionStorage.setItem("memes", JSON.stringify(savedMemes));
 
         form.reset();
-    }
+    });
 
     //DELETE BUTTON FUNCTION
     
