@@ -83,7 +83,7 @@ window.onload = function() {
     
     document.body.addEventListener("click", function(e){
         if (e.target.tagName.toLowerCase() === "button") {
-            e.target.parentNode.remove(); 
+            e.target.parentElement.remove(); 
         }
     })
 
